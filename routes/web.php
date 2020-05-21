@@ -16,3 +16,40 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+Route::get('/index', function () {
+    return view('index');
+});
+
+Route::get('/catalog1', function () {
+    return view('catalog1');
+});
+
+Route::get('/catalog2', function () {
+    return view('catalog2');
+});
+
+Route::get('/catalog3', function () {
+    return view('catalog3');
+});
+
+Route::get('/catalog4', function () {
+    return view('catalog4');
+});
+
+Route::get('/dostavka', function () {
+    return view('dostavka');
+});
+
+Route::get('/oplata', function () {
+    return view('oplata');
+});
+
+Route::get('/registration', function () {
+    return view('registration');
+});
+
+Route::get('/basket', function () {
+    return view('basket');
+});
