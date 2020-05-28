@@ -22,7 +22,7 @@ Route::get('/catalog3','ApiController@catalog3Action');
 
 Route::get('/catalog4','ApiController@catalog4Action');
 
-Route::get('/dostavka','ApiController@dostsvkaAction');
+Route::get('/dostavka','ApiController@dostavkaAction');
 
 Route::get('/oplata','ApiController@oplataAction');
 

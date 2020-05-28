@@ -14,7 +14,7 @@ class ApiController extends Controller
   {
   return view('oplata');
   }
-  public function dostasvkaAction(Request $request)
+  public function dostavkaAction(Request $request)
   {
   return view('dostavka');
   }
