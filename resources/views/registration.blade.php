@@ -1,13 +1,8 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Косметичка - интернет-магазин</title>
-<link rel="stylesheet" href="style7.css">
-<link rel="shortcut icon" href="favicon (1).ico" >
-</head>
+@section('content')
+@extends('layouts.header')
 
-<body>
+<link rel="stylesheet" href="style7.css">
+
 
 <div id="range2">
 	<div class="outer">
@@ -25,5 +20,4 @@
   </div>
 </div>
 </div>
-</body>
-</html>
+	@endsection('content')

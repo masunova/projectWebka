@@ -1,15 +1,9 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Косметичка - интернет-магазин</title>
+@section('content')
+@extends('layouts.header')
+
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="style3.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-<link rel="shortcut icon" href="favicon (1).ico" >
-</head>
-
-<body>
 
 <div class="navigation">
 <div class="logo">
@@ -140,5 +134,4 @@
       <a href="http://127.0.0.1:8000/basket" class="button11">В корзину</a>
   </div>
 </div>
-</body>
-</html>
+@endsection('content')

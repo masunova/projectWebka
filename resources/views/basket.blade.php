@@ -1,15 +1,9 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="UTF-8">
-	<title>Косметичка - интернет-магазин</title>
+@section('content')
+@extends('layouts.header')
+
 	<link rel="stylesheet" href="style8.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<link rel="shortcut icon" href="favicon (1).ico" >
-</head>
-
-<body>
-
 	<div class="navigation">
 		<div class="logo">
 			<img src="logotype.png" alt="" class="logotype">
@@ -44,6 +38,4 @@
 		<div class="text-inform">
 		<p>Здесь будут отображаться ваши товары...</p>
 		</div>
-
-</body>
-</html>
+@endsection('content')

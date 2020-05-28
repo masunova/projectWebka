@@ -1,22 +1,15 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="UTF-8">
-	<title>Косметичка - интернет-магазин</title>
-	<link rel="stylesheet" href="style.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-	<link rel="shortcut icon" href="favicon.ico" >
-</head>
+@section('content')
+@extends('layouts.header')
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
 
-<body>
+<div class="navigation">
+<div class="logo">
+<img src="logotype.png" alt="" class="logotype">
+</div>
 
-	<div class="navigation">
-		<div class="logo">
-			<img src="logotype.png" alt="" class="logotype">
-		</div>
-
-		<div class="nav-menu">
-			<ul class="menu">
+<div class="nav-menu">
+<ul class="menu">
 				<li class="nav-item"><a href="http://127.0.0.1:8000/catalog1" class="nav-link">Лицо</a></li>
 				<li class="nav-item"><a href="http://127.0.0.1:8000/catalog3" class="nav-link">Тело</a></li>
 				<li class="nav-item"><a href="http://127.0.0.1:8000/catalog2" class="nav-link">Волосы</a></li>
@@ -43,7 +36,7 @@
 				</div>
 			</div>
 		</div>
-	</div>
+</div>
 
 	<div class="main-information">
 		<div class="text-inform">
@@ -62,5 +55,4 @@
 		</div>
 	</div>
 
-</body>
-</html>
+	@endsection('content')

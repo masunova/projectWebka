@@ -12,44 +12,20 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('/index','ApiController@indexAction');
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/catalog1','ApiController@catalog1Action');
 
+Route::get('/catalog2','ApiController@catalog2Action');
 
-Route::get('/index', function () {
-    return view('index');
-});
+Route::get('/catalog3','ApiController@catalog3Action');
 
-Route::get('/catalog1', function () {
-    return view('catalog1');
-});
+Route::get('/catalog4','ApiController@catalog4Action');
 
-Route::get('/catalog2', function () {
-    return view('catalog2');
-});
+Route::get('/dostavka','ApiController@dostsvkaAction');
 
-Route::get('/catalog3', function () {
-    return view('catalog3');
-});
+Route::get('/oplata','ApiController@oplataAction');
 
-Route::get('/catalog4', function () {
-    return view('catalog4');
-});
+Route::get('/registration','ApiController@registrationAction');
 
-Route::get('/dostavka', function () {
-    return view('dostavka');
-});
-
-Route::get('/oplata', function () {
-    return view('oplata');
-});
-
-Route::get('/registration', function () {
-    return view('registration');
-});
-
-Route::get('/basket', function () {
-    return view('basket');
-});
+Route::get('/basket','ApiController@basketAction');
