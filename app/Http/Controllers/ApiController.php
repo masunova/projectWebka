@@ -42,4 +42,12 @@ class ApiController extends Controller
   {
   return view('catalog4');
   }
+  public function getBaskets(Request $request)
+  {
+    return (new BasketController())->show();
+  }
+  public function getProducts(Request $request)
+  {
+    return (new ProductController())->show();
+  }
 }

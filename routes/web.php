@@ -29,3 +29,7 @@ Route::get('/oplata','ApiController@oplataAction');
 Route::get('/registration','ApiController@registrationAction');
 
 Route::get('/basket','ApiController@basketAction');
+
+Route::get('/getBaskets','ApiController@getBaskets');
+
+Route::get('/getProducts','ApiController@getProducts');
