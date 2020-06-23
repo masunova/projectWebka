@@ -28,19 +28,23 @@ class ApiController extends Controller
   }
   public function catalog1Action(Request $request)
   {
-  return view('catalog1');
+  return view('catalog1', ['catalogs' => (new ProductController())->show() ]);
   }
   public function catalog2Action(Request $request)
   {
-  return view('catalog2');
+  return view('catalog2', ['catalogs1' => (new ProductController())->show() ]);
   }
   public function catalog3Action(Request $request)
   {
-  return view('catalog3');
+  return view('catalog3',['catalogs2' => (new ProductController())->show() ]);
   }
   public function catalog4Action(Request $request)
   {
-  return view('catalog4');
+  return view('catalog4',['catalogs3' => (new ProductController())->show() ]);
+  }
+  public function registration2Action(Request $request)
+  {
+  return view('registration2');
   }
   public function getBaskets(Request $request)
   {

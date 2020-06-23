@@ -8,7 +8,7 @@ class ProductController extends Controller
 {
   public function show()
   {
-    dump (Product::all());
+    return Product::all();
 
   }
 }

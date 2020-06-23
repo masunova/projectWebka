@@ -33,3 +33,7 @@ Route::get('/basket','ApiController@basketAction');
 Route::get('/getBaskets','ApiController@getBaskets');
 
 Route::get('/getProducts','ApiController@getProducts');
+
+Route::get('/registration2','ApiController@registration2Action');
+
+ Route::get('/auth','AuthController@auth');

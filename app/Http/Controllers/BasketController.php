@@ -10,7 +10,7 @@ class BasketController extends Controller
 
 public function show()
 {
-  dump (Basket::all());
+  return Basket::all();
 
 }
 
