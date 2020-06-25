@@ -37,3 +37,9 @@ Route::get('/getProducts','ApiController@getProducts');
 Route::get('/registration2','ApiController@registration2Action');
 
  Route::get('/auth','AuthController@auth');
+ Route::middleware ('/auth')->group(function(){
+   Route::get('/logout','AuthController@logout');
+ });
+
+ Route::get('/search','ApiController@search');
+  

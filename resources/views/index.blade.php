@@ -19,8 +19,9 @@
 
 		<div class="search-block">
 			<div class="searsh">
+				
 				<input type="text" class="search-form" placeholder="Поиск по товарам">
-				<a href="" class="search-btn"><i class="fa fa-search"></i></a>
+				<a href="/search" class="search-btn"><i class="fa fa-search"></i></a>
 
 			</div>
 		</div>

@@ -11,11 +11,14 @@
         <div class="login-wr">
 					<h2>Вход</h2>
 				<div class="form">
-					<input type="text" placeholder="Email">
-					<input type="password" placeholder="Пароль">
+<form method="get" action="/auth" id="login">
+					<input type="text" name="login" placeholder="Логин"  >
+					<input type="password" name="password" placeholder="Пароль" >
 					<a href="http://127.0.0.1:8000/registration2"> <p> У вас нет аккаунта? Регистрация </p></a>
 					<button> Вход </button>
-          </div>
+</form>
+					</div>
+
 		</div>
 	</div>
   </div>
